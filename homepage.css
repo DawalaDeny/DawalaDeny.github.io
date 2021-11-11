@@ -1,0 +1,116 @@
+html {
+    background-color: white;
+}
+
+body {
+    margin: auto;
+    width: 1000px;
+    font-family: Verdana;
+    background-color: #87ff87;
+
+}
+
+header {
+    background-image: url("../IMG/Apple trees.jpg");
+    height: 100px;
+
+
+}
+
+header h1 {
+
+    margin-top: 0;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: -20px;
+    text-align: center;
+    text-shadow: #000 0px 0px 10px;
+}
+
+header h2 {
+    margin-left: 10px;
+    color: white;
+    text-align: center;
+    text-shadow: #000 0px 0px 10px;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    margin-left: 10px;
+    border-style: solid;
+}
+
+#foto {
+
+    width: 30%;
+    display: inline-block;
+    float: left;
+    padding-top: 10px;
+    overflow: hidden;
+
+}
+
+#informatie {
+    margin-bottom: 3%;
+    margin-top: 2%;
+    display: inline-block;
+    width: 50%;
+}
+
+nav {
+    background-color: darkgreen;
+    border-style: double;
+    color: #024802;
+    height: 1.4em;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 3%;
+    font-size: 1.2em;
+
+}
+
+nav a:before {
+    content: "";
+    background-image: url("../IMG/aadcddb77d77c4ce72b0cc203829dcdb8b62abf1.jpg");
+    background-size: 100%;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+nav a:hover{
+    font-size: 1.3em;
+    font-weight: bold;
+
+}
+nav a:visited{
+
+}
+#table
+{
+    margin-top: 50px;
+}
+.tekst{
+    margin: 20px 20px;
+    text-align: justify;
+
+}
+footer{
+    margin-top: 10px;
+    text-align: right;
+    margin-right: 5px;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: white;
+    font-weight: bold;
+    font-size: 1em;
+}
+
