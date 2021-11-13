@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <title>Homepage Deny</title>
-    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="CSS/homepage.css">
 
 </head>
 <body>
@@ -18,6 +18,8 @@
         <a href="likes.html"> Likes </a>
         <a href="hobbys.html"> Hobbies </a>
         <a href="#table"> Scores </a>
+        <a href="#datagrid"> Vrienden </a>
+        <a href="Kalender.html"> Kalender </a>
     </nav>
 
     <article id="foto">
@@ -59,9 +61,12 @@
         <table width="2" border="2"> <!--beter css?-->
             <caption><h2>Voorspelling scores</h2></caption>
             <thead>
+            <tr>
             <th>NAAM STUDENT</th>
             <th colspan="6"> VAKKEN & SCORES</th>
+            </tr>
             </thead>
+
             <tbody>
 
             <tr>
@@ -104,6 +109,17 @@
             </tbody>
         </table>
     </article>
+    <div id="datagrid"><table>
+        <caption><h2>Vrienden</h2></caption>
+        <thead><tr><th>Voornaam</th><th>Achternaam</th><th>Bijnaam</th><th>postcode</th><th>plaats</th><th>straat</th></tr></thead>
+        <tbody>
+        <tr><td>Banaan</td><td>Bananeman</td><td>Geel</td><td>5555</td><td>Banaanville</td><td>Banaanstraat</td></tr>
+        <tr class="alt"><td>Peer</td><td>Peereman</td><td>Peerke</td><td>4444</td><td>Peerville</td><td>Peerstraat</td></tr>
+        <tr><td>Tomaat</td><td>Tomato</td><td class="onbekend"></td><td>3333</td><td>Tomaatville</td><td>Tomaatstraat</td></tr>
+        <tr class="alt"><td>Ert</td><td>Ertman</td><td>Ertje</td><td class="onbekend"></td><td class="onbekend"></td><td class="onbekend"></td></tr>
+        <tr><td>Mandarijn</td><td>Mandi</td><td>Handi</td><td>1111</td><td>Mandiville</td><td>Manderijnenstraat</td></tr>
+        </tbody>
+    </table></div>
 </section>
 </body>
 <footer>
