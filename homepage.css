@@ -5,7 +5,7 @@ html {
 body {
     margin: auto;
     width: 1000px;
-    font-family: Verdana;
+    font-family: Verdana, serif;
     background-color: #87ff87;
 
 }
@@ -59,6 +59,7 @@ img {
     margin-top: 2%;
     display: inline-block;
     width: 50%;
+
 }
 
 nav {
@@ -87,24 +88,29 @@ nav a:before {
     width: 15px;
     height: 15px;
 }
-nav a:hover{
+
+nav a:hover {
     font-size: 1.3em;
     font-weight: bold;
 
 }
-nav a:visited{
+
+nav a:visited {
 
 }
-#table
-{
+
+#table {
     margin-top: 50px;
+    margin-left: 5px;
 }
-.tekst{
+
+.tekst {
     margin: 20px 20px;
     text-align: justify;
 
 }
-footer{
+
+footer {
     margin-top: 10px;
     text-align: right;
     margin-right: 5px;
@@ -114,3 +120,76 @@ footer{
     font-size: 1em;
 }
 
+#datagrid table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: darkgreen;
+
+
+}
+
+#datagrid {
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 5px;
+
+}
+
+#datagrid table td, .datagrid table th {
+    padding: 7px 0px;
+}
+
+#datagrid table thead th {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #36752D), color-stop(1, #275420));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#36752D', endColorstr='#275420');
+    background-color: #36752D;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    border-left: 0px solid #36752D;
+}
+
+#datagrid table thead th {
+    background: -moz-linear-gradient(center top, #36752D 5%, #275420 100%);
+}
+
+#datagrid table thead th:first-child {
+    border: none;
+}
+
+#datagrid table tbody td {
+    color: #275420;
+    border-left: 1px solid #C6FFC2;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#datagrid table tbody .alt td {
+    background: #DFFFDE;
+    color: #275420;
+
+}
+
+#datagrid table tbody td:first-child {
+    border-left: none;
+}
+
+#datagrid table tbody tr:last-child td {
+    border-bottom: none;
+
+}
+
+caption h2 {
+    font-size: 30px;
+    text-align: left;
+}
+
+#datagrid .onbekend:empty{
+    background-color: red;
+}
